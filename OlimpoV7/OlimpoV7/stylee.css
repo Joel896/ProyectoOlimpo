@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #FAFAFA;
+    margin: 0;
+    min-height: 100%;
+  }
+  
+  a, li {
+    font-family: 'calibri';
+    color:#958FC9;   
+  }
+
+
+  .logo-header img {
+    width: 50px;
+  }
+  
+  header {
+    background-color:#F7F7F7 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    margin: auto;
+  }
+
+  .nav-menu ul {
+    display:flex;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    margin-right: 1.5rem;
+  }
+ 
+  .nav-menu li:nth-last-child(2){
+    background-color: #F7F7F7;
+    border: 2px solid #958FC9;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  
+  .nav-menu li:last-child{
+ 
+    background-color: #6c67ac;
+    border: 2px solid #6c67ac;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  .form-iniciar {
+    background: #FAFAFA;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #8BC9B7;
+  
+  }
+  
+  .form-iniciar h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .form-iniciar p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-iniciar a {
+    color: #958FC9;
+    text-decoration: none;
+  }
+  
+  .form-iniciar .botons {
+   width: 30%;
+   color: #958FC9;
+   font-size: 18px;
+   border: 2px solid #6c67ac;
+   background-color: #6c67ac;
+   padding: .25rem .75rem;
+    
+    border-radius: .2rem;
+    
+  }
+  .form-iniciar .botons:hover {
+    border: 2px solid #a8a7b3;
+  }
+
+  .Olimpo {
+    font-size: 58px;
+    margin-left: 850px;
+    top: 50px;
+  }
+  .Contacto{
+    margin-left: 400px;
+    margin-top: 100px;
+    top: 30 px;
+    font-size: 50px;
+  }
+
+  .form-contacto {
+    background: #FAFAFA;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #8BC9B7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .descripcion {
+    flex-wrap: wrap;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #958FC9;
+    margin-top: 20px;
+  }
+  .iconos{
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 260px;
+    display: flex;
+    max-width: 1000px;
+    width: calc(100% / 2);
+    letter-spacing: 50px;
+    margin-left: 110px;
+  }
+  #wssp{
+    margin-left: 4%;
+  }
+
+  .botons{
+  width: 10%;
+  color: #958FC9;
+  font-size: 18px;
+  border: 2px solid #6c67ac;
+  background-color: #6c67ac;
+  padding: .25rem .90rem;
+  border-radius: .2rem;
+  margin-left: 850px;
+  }
+  .botons:hover{
+    border: 2px solid #a8a7b3;
+  }
+  
+  .controls {
+    margin-left: 750px;
+    width: 20%;
+    background: #F7F7F7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #8BC9B7;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  .ruc{
+    margin-left: 900px;
+    font-size: 40px;
+  }
+  .infocontacto{
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    display: flex;
+    max-width: 1000px;
+    width: calc(100% / 2);
+    margin-left: 110px;
+  }
+  .telefono{
+    margin-right:80px;
+  }
+  .correo{
+    margin-right: 80px;
+  }
+  .wss{
+    margin-right: 80px;
+  }
+  .afiliate{
+    font-size: 58px;
+    margin-left: 500px;
+    top: 50px;
+  }
+  .contenedor{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .texto{
+    max-width: 100%;
+  }

@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    background-color: #FAFAFA;
+  }
+  
+  a, li {
+    font-family: 'calibri';
+    color:#958FC9;   
+  }
+
+
+  .logo-header img {
+    width: 50px;
+  }
+  
+  header {
+    background-color:#F7F7F7 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+  }
+
+  .nav-menu ul {
+    display:flex;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    margin-right: 1.5rem;
+  }
+ 
+  .nav-menu li:nth-last-child(2){
+    background-color: #F7F7F7;
+    border: 2px solid #958FC9;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  
+  .nav-menu li:last-child{
+ 
+    background-color: #6c67ac;
+    border: 2px solid #6c67ac;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  
+
+
+
+  .nav-barra {
+    position: absolute ;
+    width: 200px;
+    height: 130%;
+    background: white;
+    border: 3px solid #a8a7b3;
+  }
+  
+  
+    .nav-barra li {
+      width: 86%;
+      margin-right: 1.5rem;
+      background-color: white ;
+      border: 2px solid #a8a7b3;
+      padding: .25rem .75rem;
+    
+    }
+   
+    .nav-barra li:hover {
+      background-color: #a8a7b3;
+    }
+  
+    .logo-barra {
+     width: 86%;
+      display:inline-block;
+      margin-right: 1.5rem;
+      color:white;
+      background-color: #6c67ac;
+      border: 2px solid #6c67ac;
+      padding: .25rem .75rem;
+      
+      
+    }
+  
+
+  .titulocaja1 {
+    color: #8BC9B7;
+    margin-right: 6%;  
+    margin-left: 27%;
+  
+    margin-top: 0%;
+  }
+
+  .caja1 {
+
+    background-color: #F7F7F7;
+    width: 60%;
+    height: 280px;
+    margin-right: 8%;  
+    margin-left: 27%;
+    border: 1px solid #8BC9B7;
+    padding: 5px;
+    margin-bottom: 1%;
+    
+}
+
+.titulocaja2 {
+    color: #8BC9B7;
+    margin-right: 6%;  
+    margin-left: 27%;
+    
+  }
+
+.caja2 {
+  
+    background-color: #F7F7F7;
+    width: 60%; 
+    height: 280px;
+    margin-right: 6%;
+    margin-left: 27%;
+    border: 1px solid #8BC9B7;
+    padding: 5px;
+    margin-bottom: 1%;
+   
+}
+
+

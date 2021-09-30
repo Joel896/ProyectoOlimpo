@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    background-color: #FAFAFA;
+  }
+  
+  a, li {
+    font-family: 'calibri';
+    color:#958FC9;   
+  }
+
+
+  .logo-header img {
+    width: 50px;
+  }
+  
+  header {
+    background-color:#F7F7F7 ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+  }
+
+  .nav-menu ul {
+    display:flex;
+    align-items: center;
+  }
+
+  .nav-menu li {
+    margin-right: 1.5rem;
+  }
+ 
+  .nav-menu li:nth-last-child(2){
+    background-color: #F7F7F7;
+    border: 2px solid #958FC9;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  
+  .nav-menu li:last-child{
+ 
+    background-color: #6c67ac;
+    border: 2px solid #6c67ac;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+  }
+
+  .form-iniciar {
+    width: 400px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #8BC9B7;
+  
+  }
+  
+  .form-iniciar h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #F7F7F7;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #8BC9B7;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: gray;
+  }
+  
+  
+  .form-iniciar .botons {
+   width: 30%;
+   color: #958FC9;
+   font-size: 18px;
+   border: 2px solid #6c67ac;
+   background-color: #6c67ac;
+   padding: .0 .40rem;
+   border-radius: .2rem;
+  
+    
+  }
+  .form-iniciar .botons:hover {
+    border: 2px solid #a8a7b3;
+  }
